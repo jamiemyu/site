@@ -1,0 +1,55 @@
+#contact-img {
+    display: inline-block;
+	padding-top: 3%;
+    padding-left: 3%;
+    max-width: 50%;
+}
+
+#titlecontainer {
+    display: inline-block;
+    position: fixed;
+    margin-top: 5%;
+    margin-left: 8%;
+    padding: 2%;
+    width: 25%;
+}
+
+#titlecontainer h1 {
+    font-size: 6.4vw;
+    font-weight: 300;
+    color: #000000;
+    margin: 0;
+    text-align: center;
+}
+
+#titlecontainer h2 {
+    font-size: 2vw;
+    font-weight: 200;
+    color: #6B203E;
+    text-align: right;
+    margin-right: 2.5%;
+    margin-top: -12%;
+    margin-bottom: 0;
+}
+
+#buttons {
+    display: inline-block;
+    width: 100%;
+}
+
+#buttons ul {
+    padding: 0;
+}
+
+#buttons ul li {
+	display: inline-block;
+    margin-right: 2%;
+    margin-left: 2%;
+    width: 25%;
+}
+
+#buttons ul li img {
+    max-width: 100%;
+    height: auto;
+}
+

@@ -1,0 +1,35 @@
+body {
+    font-family: Taviraj;
+}
+
+.navcontainer {
+    float: top;
+    height: 8%;
+    width: 100%;
+}
+
+.navcontainer ol li {
+	display: inline;
+    float: right;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.navcontainer ol li a {
+	text-decoration: none;
+	font-family: Taviraj-Medium;
+	font-size: 2vw;
+	color: #6B203E;
+}
+
+.navcontainer ol li:after {
+    content: "";
+    display: inline-block;
+    width: 0%;
+    border-bottom: 2px solid black;
+    transition:all 0.2s linear 0s;
+}
+
+.navcontainer ol li:hover:after {
+    width: 100%;
+}

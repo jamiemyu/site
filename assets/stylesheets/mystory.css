@@ -5,6 +5,30 @@ h1 {
     padding-left: 6%;
 }
 
+h2 {
+    display: inline-block;
+    font-family: Taviraj;
+    font-weight: 300;
+    font-size: 4vw;
+    margin:0;
+    padding-left: 1%;
+}
+
+h3 {
+    display: inline-block;
+    font-family: Taviraj;
+    font-weight: 500;
+    font-size: 4vw;  
+    margin:0;
+}
+
+p {
+    font-weight: 100;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+}
+
 img.wrap {
     float: right;
 }
@@ -59,7 +83,7 @@ img.wrap {
     margin: 3%;
 }
 
-#boston {
+#boston, #cleveland, #sanfrancisco {
     display: inline-block;
     margin-left: 3%;
     margin-right: 3%;
@@ -70,103 +94,14 @@ img.wrap {
     max-width: 100%:
 }
 
-#boston h3 {
-    display: inline-block;
-    font-family: Taviraj;
-    font-weight: 500;
-    font-size: 4vw;  
-    margin:0;
-}
-
-#boston h2 {
-    display: inline-block;
-    font-family: Taviraj;
-    font-weight: 300;
-    font-size: 4vw;
-    margin:0;
-    padding-left: 1%;
-}
-
-#boston p {
-    font-weight: 100;
-    padding: 0;
-    margin: 0;
-}
-
-#boston img {
+#boston img, #sanfrancisco img {
     float: right;
     max-width: 40%;
     padding-left: 1%;
-}
-
-#cleveland {
-    display: inline-block;
-    margin-left: 3%;
-    margin-right: 3%;
-    margin-bottom: 3%;
-}
-
-#cleveland h3 {
-    display: inline-block;
-    font-family: Taviraj;
-    font-weight: 500;
-    font-size: 4vw;  
-    margin:0;
-}
-
-#cleveland h2 {
-    display: inline-block;
-    font-family: Taviraj;
-    font-weight: 300;
-    font-size: 4vw;
-    margin:0;
-    padding-left: 1%;
-}
-
-#cleveland p {
-    font-weight:100;
-    padding: 0;
-    margin: 0;
 }
 
 #cleveland img {
     float: left;
     max-width: 40%;
     padding-right: 1%;
-}
-
-#sanfrancisco {
-    display: inline-block;
-    margin-left: 3%;
-    margin-right: 3%;
-    margin-bottom: 3%;
-}
-
-#sanfrancisco h3 {
-    display: inline-block;
-    font-family: Taviraj;
-    font-weight: 500;
-    font-size: 4vw;  
-    margin:0;
-}
-
-#sanfrancisco h2 {
-    display: inline-block;
-    font-family: Taviraj;
-    font-weight: 300;
-    font-size: 4vw;
-    margin:0;
-    padding-left: 1%;
-}
-
-#sanfrancisco p {
-    font-weight:100;
-    padding: 0;
-    margin: 0;
-}
-
-#sanfrancisco img {
-    float: right;
-    max-width: 40%;
-    padding-left: 1%;
 }

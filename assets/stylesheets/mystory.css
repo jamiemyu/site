@@ -66,6 +66,10 @@ img.wrap {
     margin-bottom: 3%;
 }
 
+#boston-title {
+    max-width: 100%:
+}
+
 #boston h3 {
     display: inline-block;
     font-family: Taviraj;

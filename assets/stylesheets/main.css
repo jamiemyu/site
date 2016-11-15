@@ -1,11 +1,14 @@
 body {
     font-family: Taviraj;
+    position: relative;
 }
 
 .navcontainer {
-    float: top;
+    position: fixed;
     height: 8%;
     width: 100%;
+    margin-top: -1%;
+    background-color: white;
 }
 
 .navcontainer ol li {
@@ -32,4 +35,8 @@ body {
 
 .navcontainer ol li:hover:after {
     width: 100%;
+}
+
+#body {
+    padding-top: 7%;
 }

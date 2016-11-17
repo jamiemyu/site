@@ -1,6 +1,74 @@
-h1 {
-    font-size: 3vw;
+h2 {
     font-weight: 500;
     margin: 0;
-    padding-left: 6%;
+    padding: 0;
+}
+
+h3 {
+    font-weight: 200;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-weight: 100;
+    font-size: 17px;
+    text-indent: 30px;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    max-width: 100%; 
+    padding-left: 3%;
+}
+
+#bme-imaging {
+    float: right;
+    padding-right: 3%;
+    width: %;
+}
+
+#bme-imaging h2, #bme-imaging h3 {
+    text-align: right;
+}
+
+#bme-imaging img {
+    float: right;
+    padding-left: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+#engr-practicum {
+    float: left;
+    padding-top: 3%;
+    padding-left: 3%;
+    width: 96%;
+}
+
+#engr-practicum img {
+    float: left;
+    padding-right: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+#engr-practicum ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 50%;
+}
+
+#dig-doppler {
+    float: right;
+    padding-top: 3%;
+    padding-right: 3%;
+    text-align: right;
+    width: 96%;
+}
+
+#dig-doppler img {
+    float: right;
+    padding-left: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }

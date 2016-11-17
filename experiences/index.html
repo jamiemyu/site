@@ -6,7 +6,7 @@
         <link rel="stylesheet" type="text/css" href="../assets/stylesheets/experiences.css">
         
 	    <div class="navcontainer">
-            <h1>Experiences</h1>
+            <h1>What I've Worked On</h1>
             <ol>
 				<li><a href="">Experiences</a></li>
                 <li><a href="../mystory/index.html">My Story</a></li>
@@ -16,7 +16,43 @@
     </head>
 
 	<body>
-        <div id="body"></div>
-		
+        <div id="body">
+            <div id="bme-imaging">
+                <h2>Biomedical Imaging Lab</h2>
+                <h3>Case Western Reserve University | Cleveland, OH</h3>
+                <img src="../assets/images/bme-imaging-img.jpeg" width="20%">
+                
+                <p>This past September, I joined the Biomedical Imaging Lab at Case Western Reserve University. The lab is headed by Professor David L. Wilson, Ph.D., and along with other graduate-level students, I am conducting premedically and medically relevant research in imaging science. The technique that we are developing is called Cryo-imaging - a novel method developed by Dr. Wilson and his lab. It is unique in that it sections and images block face of a frozen specimen, to provide ultra-high-resolution RGB and fluorescence volumes. Essentially, cryo-imaging enables high resolution 3-D imaging in bright field (BF) and fluorescence (GFP) with the acquisition of several slices at 10-40 micrometer intervals.
+                </p>
+                <p>
+                More specifically, I am working with a graduate student to develop a software platform that implements machine-learning algorithms to validate tumor detection in MRI scans. I am currently working with Amira software to process cryo-images by labeling tumors with specific markers. These labeled images can then be used with MATLAB to "teach" the computer to detect tumors.
+                </p>
+            </div>
+            
+            <div id="engr-practicum">
+                <h2>Engineering Practicum</h2>
+                <h3>Google | Mountain View, CA</h3>
+                <img src="../assets/images/engr-practicum-img.jpg" width="40%">
+                
+                <p>For twelve weeks this past summer, I got the opportunity to intern at Google. I spent the summer working in Google's division named AdWords, specifically under the Payments Pipeline team. I was lucky enough to receive support from two amazing hosts, who were full-time engineers with expansive knowledge on programming, team-work, and collaboration. Along with one other intern, I worked on solving two major problems that full-time engineers consistently dealt with:</p>
+                <ol>
+                    <li>Test time</li>
+                    <li>Test flakiness</li>
+                </ol>
+                <p>To solve these problems, we developed in-memory "fakes", that supported change tracking (updates to the database), notification (alerting the engineer of successful change), and scheduling functionality (making a change at a scheduled time) specifically for Google AdWord's payment infrastructure. We were able to provide a solution to the initial problems by speeding up unit and functional test process time by approximately 5 times. After successful completion of the project, we were able to create a comprehensive design document, as well as present our work to the team.</p>
+                <p>Throughout the entire twelve weeks, I was able to improve my problem-solving and critical thinking skills, as well as improve my proficiency in Java. Furthermore, I learned how to work in a team setting, and how to deal with large-scale problems. I am extremely grateful for my first summer at Google, and I am excited to be returning to Google, for another Software Engineering internship next year!</p>
+            </div>
+            
+            <div id="dig-doppler">
+                <h2>Digital Doppler Blood Flow Detector</h2>
+                <h3>University Hospitals | Cleveland, OH</h3>
+                <img src="../assets/images/dig-doppler-img.jpg" width="40%">
+                
+                <p>During my Sophomore year at Case Western Reserve University, I took part in a research project involving the creation of a new medical device. Alongside a small group of undergraduate students, I worked on building a hand-held device that could detect blood flow rates in newly transplanted tissue using a digital doppler flow meter. Right now, there are no portable devices that do this. The current system involves a Cook Medical bed-side monitor that gives only qualitative data (the sound of the blood flow pulse), that a trained nurse or doctor needs to listen to by ear periodically, in order to ensure the blood flow is healthy. The success of the project would eliminate time spent in the hospital and produce standard, quantitative data.</p>
+                <p>The specific work I did on this project included writing the MATLAB and arduino scripts. The arduino script would convert the analog signal to a digital signal, so that it could be further analyzed in MATLAB. The MATLAB script then produced a live plot of the blood flow rate data.</p>
+                <p>Although I am not working on this project anymore, the surgeon who initiated the project is continuing the project from where we left off. He has had preliminary meetings with Cook Medical, who are tentatively interested in collaborating with the university to finish the project.</p>
+            </div>
+            
+        </div>
 	</body>
 </html>

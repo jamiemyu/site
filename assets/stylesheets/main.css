@@ -1,15 +1,14 @@
 .navcontainer h1 {
     float: left;
     padding-top: 0.3%;
-    font-size: 3vw;
-    font-weight: 500;
+    font-size: 4vw;
     margin: 0;
     padding-top: 1%;
     padding-left: 3%;
 }
 
 body {
-    font-family: Taviraj;
+    font-family: Josefin Sans;
     position: relative;
 }
 
@@ -19,11 +18,12 @@ body {
     height: 8%;
     width: 100%;
     margin-top: -1%;
+    padding-top: 2%;
     background-color: white;
 }
 
 .navcontainer ol {
-    padding-right: 2%;
+    padding-right: 3%;
 }
 
 .navcontainer ol li {
@@ -35,8 +35,9 @@ body {
 
 .navcontainer ol li a {
 	text-decoration: none;
-	font-family: Taviraj-Medium;
-	font-size: 2vw;
+	font-family: Josefin Sans;
+    font-weight: 300;
+	font-size: 2.2vw;
 	color: #6B203E;
 }
 
@@ -44,7 +45,7 @@ body {
     content: "";
     display: inline-block;
     width: 0%;
-    border-bottom: 2px solid black;
+    border-bottom: 1px solid black;
     transition:all 0.2s linear 0s;
 }
 
@@ -53,5 +54,5 @@ body {
 }
 
 #body {
-    padding-top: 7%;
+    padding-top: 9%;
 }

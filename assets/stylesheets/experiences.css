@@ -1,18 +1,20 @@
 h2 {
-    font-weight: 500;
     margin: 0;
     padding: 0;
+    font-size: 4vw;
 }
 
 h3 {
-    font-weight: 200;
+    font-weight: 100;
+    font-size: 2.5vw;
     margin: 0;
     padding: 0;
+    margin-bottom: 2%
 }
 
 p {
     font-weight: 100;
-    font-size: 17px;
+    font-size: 22px;
     text-indent: 30px;
     text-align: left;
     padding: 0;
@@ -24,7 +26,6 @@ p {
 #bme-imaging {
     float: right;
     padding-right: 3%;
-    width: %;
 }
 
 #bme-imaging h2, #bme-imaging h3 {
@@ -34,7 +35,6 @@ p {
 #bme-imaging img {
     float: right;
     padding-left: 3%;
-    padding-top: 1%;
     padding-bottom: 1%;
 }
 
@@ -45,10 +45,13 @@ p {
     width: 96%;
 }
 
+#engr-practicum p {
+    padding-right: 2%;
+}
+
 #engr-practicum img {
     float: left;
     padding-right: 3%;
-    padding-top: 1%;
     padding-bottom: 1%;
 }
 
@@ -56,6 +59,7 @@ p {
     margin-top: 0;
     margin-bottom: 0;
     padding-left: 50%;
+    font-size: 22px;
 }
 
 #dig-doppler {
@@ -69,6 +73,9 @@ p {
 #dig-doppler img {
     float: right;
     padding-left: 3%;
-    padding-top: 1%;
     padding-bottom: 1%;
+}
+
+#body {
+    padding-right: 1%;
 }

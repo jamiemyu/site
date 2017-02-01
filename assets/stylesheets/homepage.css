@@ -43,13 +43,14 @@
 
 #buttons ul {
     padding: 0;
+    width: 100%;
 }
 
 #buttons ul li {
 	display: inline-block;
-    margin-right: 2%;
-    margin-left: 2%;
-    width: 25%;
+    margin-right: 0.5%;
+    margin-left: 0.5%;
+    width: 22%;
 }
 
 #buttons ul li img {

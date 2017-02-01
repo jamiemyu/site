@@ -1,7 +1,7 @@
 .navcontainer h1 {
     float: left;
     padding-top: 0.3%;
-    font-size: 4vw;
+    font-size: 30px;
     margin: 0;
     padding-top: 1%;
     padding-left: 3%;
@@ -17,7 +17,7 @@ body {
     z-index: 1;
     height: 8%;
     width: 100%;
-    margin-top: -1%;
+    margin-top: -1.5%;
     padding-top: 2%;
     background-color: white;
 }
@@ -51,6 +51,11 @@ body {
 
 .navcontainer ol li:hover:after {
     width: 100%;
+    color: black
+}
+
+.navcontainer ol li a:hover {
+    color: black;
 }
 
 #body {
